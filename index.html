@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>Centralized Campus System</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="school-logo">
+            <img src="Logos/school.png" alt="School Logo">
+        </div>
+        <a href="#" class="tab-logo" id="homepage-tab">
+            <img src="Logos/homepage.png" alt="Homepage">
+            <span>Homepage</span>
+        </a>
+        <a href="#" class="tab-logo" id="maps-tab">
+            <img src="Logos/maps.png" alt="Maps">
+            <span>Maps</span>
+        </a>
+        <a href="#" class="tab-logo" id="courses-tab">
+            <img src="Logos/courses.png" alt="Courses">
+            <span>Courses</span>
+        </a>
+        <a href="#" class="tab-logo" id="teachers-tab">
+            <img src="Logos/teacher.png" alt="Teachers">
+            <span>Teachers</span>
+        </a>
+        <a href="#" class="tab-logo" id="contact-tab">
+            <img src="Logos/contactUs.png" alt="Contact Us">
+            <span>Contact Us</span>
+        </a>
+    </div>
+
+    <div class="content">
+        <!-- Homepage Tab Content -->
+        <div class="tab-content" id="homepage-content">
+            <div class="scrolling-box">
+                <div class="sub-tabs swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-sub-tab="sub-tab1">
+                            <img src = "Photos/377322896_266224996288751_2152221283917590623_n.png">
+                        </div>
+                        <div class="swiper-slide" data-sub-tab="sub-tab2">
+                            <img src = "Photos/377148502_268086296043184_3405153829563234601_n.png">
+                        </div>
+                        <div class="swiper-slide" data-sub-tab="sub-tab3">
+                            <img src = "Photos/377970099_1997483757281474_8672421259101430590_n.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <!-- Maps Tab Content -->
+        <div class="tab-content" id="maps-content">
+            <div class ="building-border">
+                <div class="search-tab">
+                    <input class="search-bar" type="text" placeholder="Search rooms and laboratories">
+                    <button id="search-button">Search</button>
+                </div>
+                <div class="building-buttons">
+                    <button class="building-button">Building A</button>
+                    <button class="building-button">Building B</button>
+                    <button class="building-button">Building C</button>
+                    <button class="building-button">Building D</button>
+                </div>
+                <div class="blueprints">Blueprints for Buildings</div>
+                <div class="classroom-schedule" id="classroom-schedule">
+                    <!-- CONTENT -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Courses Tab Content -->
+        <div class="tab-content" id="courses-content">
+            <div class ="course-box">
+                <div class="course-swipe-div">Swipe left and right to view courses</div>
+                <div class="curriculum-checklist">Curriculum checklist for each course</div>
+            </div>
+        </div>
+
+        <!-- Teacher Tab Content -->
+        <div class="tab-content" id="teachers-content">
+            <!-- Teacher content here -->
+        </div>
+
+        <!-- Contact Us Tab Content -->
+        <div class="tab-content" id="contact-content">
+            <textarea id="recommendation" placeholder="Write a recommendation or review"></textarea>
+            <textarea id="report" placeholder="Write an anonymous report"></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

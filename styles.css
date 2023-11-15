@@ -1,0 +1,167 @@
+
+/* HOMEPAGE */
+
+
+/* Basic styling for the sidebar */
+.sidebar {
+    width: 125px; 
+    background-color: #1e212c;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Style for the school logo */
+.school-logo img {
+    width: 100px; 
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for tab logos */
+.tab-logo img {
+    width: 50px; 
+    height: auto; 
+    padding: 20px;
+}
+
+.tab-logo span {
+    font-size: 15px; 
+    color: darkgrey;
+}
+
+/* Styling for the content area */
+.content {
+    margin-left: 170px; 
+    padding: 35px;
+}
+
+/* Style for the scrolling box */
+.scrolling-box {
+    width: 1160px; 
+    height: auto;
+    border: 1px solid #1e212c;
+    white-space: nowrap;
+    margin-top: 50px;
+    padding: 45px;
+    background-color: #1e212c;
+}
+
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Style for individual sub-tabs */
+.swiper-slide {
+    width: 100%;
+    padding: 20px;
+    flex-shrink: 0;
+    padding-left: 155px;
+}
+
+/* Style for the sub-tab content container */
+.sub-tabs {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Style for the pagination dots (bottom) */
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    padding: 50px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 25px; 
+    height: 15px; 
+    background: #555;
+    border-radius: 0; 
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background: #1e212c; 
+}
+
+
+
+
+
+
+/* MAP */
+
+.search-bar {
+    width: 150px; 
+    height: auto;
+    padding: 10px 20px;
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.building-buttons {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+}
+
+.building-button {
+    width: 150px;
+    height: auto;
+    padding: 10px 20px; 
+    margin: 20px 0; 
+    text-align: center;
+    background: #555;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.building-border {
+    width: 1160px; 
+    height: 500px; 
+    border: 1px solid black;
+    border-radius: 30px;
+    white-space: nowrap;
+    margin-top: 50px;
+    padding: 45px;
+    background-color: darkgray;
+}
+
+
+
+
+
+/*COURSES */
+
+
+
+
+
+
+
+
