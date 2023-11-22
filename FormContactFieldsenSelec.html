@@ -192,7 +192,7 @@
     var otherOptionDiv = document.getElementById('otherOption');
     var otherReportTypeInput = document.getElementById('otherReportType');
 
-    if (reportTypeDropdown.value === 'other') {
+    if (reportTypeDropdown.value == 'other') {
       otherOptionDiv.style.display = 'block';
       otherReportTypeInput.setAttribute('required', 'required');
     } else {
