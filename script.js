@@ -1,11 +1,10 @@
-
-
 const tabLogos = document.querySelectorAll('.tab-logo');
 const tabContents = document.querySelectorAll('.tab-content');
 
 tabLogos.forEach((tabLogo, index) => {
-    tabLogo.addEventListener('click', (event) => {
-        event.preventDefault(); 
+    tabLogo.addEventListener('click', () => {
+        // No need for event.preventDefault() if you want the links to navigate to the specified HTML files.
+
         // Hide all tab contents
         tabContents.forEach(content => content.style.display = 'none');
         
@@ -32,5 +31,3 @@ tabButtons.forEach(function (button, index) {
         mySwiper.slideTo(index);
     });
 });
-
-
