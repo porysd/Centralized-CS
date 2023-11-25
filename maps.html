@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralized Campus System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<header>
+    <div class="sectionTitle">
+        <h1>STI Campus System </h1>
+    </div>
+</header>
+<body>
+    <div class="sidebar">
+        <div class="school-logo">
+            <a href="index.html">
+                <img src="Logos/school.png" alt="School Logo">
+            </a>
+        </div>
+
+        <a href="index.html" class="tab-logo">
+            <img src="Logos/homepage.png" alt="Homepage">
+            <span>Homepage</span>
+        </a>
+        <a href="maps.html" class="tab-logo">
+            <img src="Logos/maps.png" alt="Maps">
+            <span>Maps</span>
+        </a>
+        <a href="courses.html" class="tab-logo">
+            <img src="Logos/courses.png" alt="Courses">
+            <span>Courses</span>
+        </a>
+        <a href="teachers.html" class="tab-logo">
+            <img src="Logos/teacher.png" alt="Teachers">
+            <span>Teachers</span>
+        </a>
+        <a href="contactUs.html" class="tab-logo">
+            <img src="Logos/contactUs.png" alt="Contact Us">
+            <span>Contact Us</span>
+        </a>
+    </div>
+    
+    <div class="content">
+        <div class="tab-content" id="maps-content">
+            <div class ="building-border">
+                <div class="search-tab">
+                    <input class="search-bar" type="text" placeholder="Search rooms and laboratories">
+                    <button id="search-button">Search</button>
+                </div>
+                <div class="building-buttons">
+                    <button class="building-button">Building A</button>
+                    <button class="building-button">Building B</button>
+                    <button class="building-button">Building C</button>
+                    <button class="building-button">Building D</button>
+                </div>
+                <div class="blueprints">Blueprints for Buildings</div>
+                <div class="classroom-schedule" id="classroom-schedule">
+                    <!-- CONTENT -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Other content or footer if needed -->
+</body>
+</html>
