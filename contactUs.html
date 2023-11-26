@@ -46,46 +46,47 @@
     </div>
 
     <div class="content">
-        <div id="initialButtons">
-            <button onclick="showFeedbackForm()">Send Feedback and Suggestions</button>
-            <button onclick="showReportForm()">Report Anonymously</button>
-        </div>
-        
-        <div id="feedbackForm">
-            <label for="schoolEmail">School Email:</label>
-            <input type="email" id="schoolEmail" required><br>
-        
-            <label for="feedbackMessage">Feedback Message:</label>
-            <textarea id="feedbackMessage" rows="4" required></textarea><br>
-        
-            <button onclick="sendFeedback()">Send</button>
-        </div>
-        
-        <div id="reportForm">
-            <label for="reportType">Report Type:</label>
-            <select id="reportType" onchange="checkOtherOption()" required>
-            <option value="cheating">Cheating in Exams</option>
-            <option value="vandalism">Vandalism</option>
-            <option value="tardiness">Tardiness</option>
-            <option value="forbidden">Possession of Forbidden Item/s</option>
-            <option value="other">Other (please specify)</option>
-            </select>
-            <br>
-        
-            <div id="otherOption" style="display: none;">
-            <label for="otherReportType">Other Report Type:</label>
-            <input type="text" id="otherReportType" placeholder="Type your report type">
-            <br>
+        <div class="contact-tab">
+            <div id="initialButtons">
+                <button onclick="showFeedbackForm()">Send Feedback and Suggestions</button>
+                <button onclick="showReportForm()">Report Anonymously</button>
             </div>
-        
-            <label for="reportMessage">Report Message:</label>
-            <textarea id="reportMessage" rows="4" required></textarea><br>
-        
-            <button onclick="submitReport()">Submit</button>
+            
+            <div id="feedbackForm">
+                <label for="schoolEmail">School Email:</label>
+                <input type="email" id="schoolEmail" required><br>
+            
+                <label for="feedbackMessage">Feedback Message:</label>
+                <textarea id="feedbackMessage" rows="4" required></textarea><br>
+            
+                <button onclick="sendFeedback()">Send</button>
+            </div>
+            
+            <div id="reportForm">
+                <label for="reportType">Report Type:</label>
+                <select id="reportType" onchange="checkOtherOption()" required>
+                <option value="cheating">Cheating in Exams</option>
+                <option value="vandalism">Vandalism</option>
+                <option value="tardiness">Tardiness</option>
+                <option value="forbidden">Possession of Forbidden Item/s</option>
+                <option value="other">Other (please specify)</option>
+                </select>
+                <br>
+            
+                <div id="otherOption" style="display: none;">
+                <label for="otherReportType">Other Report Type:</label>
+                <input type="text" id="otherReportType" placeholder="Type your report type">
+                <br>
+                </div>
+            
+                <label for="reportMessage">Report Message:</label>
+                <textarea id="reportMessage" rows="4" required></textarea><br>
+            
+                <button onclick="submitReport()">Submit</button>
+            </div>
+            
+            <div id="confirmationMessage" class="success"></div>
         </div>
-        
-        <div id="confirmationMessage" class="success"></div>
-    </div>
     <!-- Other content or footer if needed -->
 </body>
 </html>
