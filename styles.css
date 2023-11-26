@@ -81,18 +81,19 @@ header {
 
 /* Styling for the content area */
 .content {
-    margin-left: 180px; 
-    padding: 40px;
+    margin-left: 170px; 
+    padding: 35px;
 }
 
 /* Style for the scrolling box */
 .scrolling-box {
     width: 1160px; 
-    height: auto;
+    height: 400px;
     white-space: nowrap;
+    border-radius: 30px;
     margin-top: 50px;
-    padding: 45px;
-
+    padding: 40px;
+    background-color: #37474F;
 }
 
 
@@ -187,7 +188,7 @@ header {
     white-space: nowrap;
     margin-top: 50px;
     padding: 40px;
-    background-color: darkgray;
+    background-color: #37474F;;
 }
 
 
@@ -196,6 +197,16 @@ header {
 
 /*COURSES */
 
+.course-box {
+    width: 1160px; 
+    height: 400px; 
+    border: 1px solid black;
+    border-radius: 30px;
+    white-space: nowrap;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #37474F;
+}
 
 /*CONTACTS*/
 
