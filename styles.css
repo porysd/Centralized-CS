@@ -2,18 +2,19 @@
 /*FOR ALL THE HTML */
 
 
-
-
-
-
+body{
+    display: block;
+    margin: 0;
+}
 
 /* HOMEPAGE */
 
-.sectionTitle h1 {
+div.sectionTitle h1{
     width: 100%;
     background-color: rgb(1, 87, 155);
     padding:  20px;
     margin: 0;
+    flex:1;
     text-indent: 90px;
     color: #fff;
     font-size: 22px;
@@ -27,6 +28,8 @@
     width: 100px; 
     background-color: #37474F;
     position:fixed;
+    margin: 0;
+    left:0;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -62,8 +65,8 @@
 
 /* Styling for the content area */
 .content {
-    margin-left: 170px; 
-    padding: 35px;
+    margin-left: 180px; 
+    padding: 40px;
 }
 
 /* Style for the scrolling box */
@@ -167,7 +170,7 @@
     border-radius: 30px;
     white-space: nowrap;
     margin-top: 50px;
-    padding: 45px;
+    padding: 40px;
     background-color: darkgray;
 }
 
