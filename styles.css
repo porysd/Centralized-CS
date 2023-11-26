@@ -259,6 +259,7 @@ header {
     display: block;
     margin: auto;
     transition: 1s ease;
+    border-radius: 20px;
 }
 
 .course-box img:hover{
