@@ -181,7 +181,54 @@ div.sectionTitle h1{
 /*COURSES */
 
 
+/*CONTACTS*/
 
+#initialButtons, #feedbackForm, #reportForm, #confirmationMessage {
+    text-align: center;
+    background-color: #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  #feedbackForm, #reportForm {
+    display: none;
+  }
+
+  #confirmationMessage {
+    display: none;
+    color: #fff;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #1a5276;
+  }
+
+  .success {
+    color: #2ecc71;
+  }
 
 
 
