@@ -78,6 +78,22 @@ function showFloor(building) {
 
 
 
+//COURESES//
+
+function showInfo(boxId) {
+  var infoContainer = document.getElementById(boxId + '-info');
+  infoContainer.style.display = 'block';
+}
+
+function hideInfo(boxId) {
+  var infoContainer = document.getElementById(boxId + '-info');
+  infoContainer.style.display = 'none';
+}
+
+
+
+//TEACHERS//
+
 
 //CONTACTS//
 

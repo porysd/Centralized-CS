@@ -49,14 +49,90 @@
     <div class="content">
         <!-- Courses Tab Content -->
         <div class="tab-content" id="courses-content">
-            <div class ="course-box">
+            <div class="course-box">
                 <div class="college">
-                    <img src="CoursesImage/COLLEGE.jpg">
+                    <img src="CoursesImage/COLLEGE.jpg" onclick="showInfo('college')">
                 </div>
                 <div class="strands">
-                    <img src="CoursesImage/SENIORHIGH.jpg">
+                    <img src="CoursesImage/SENIORHIGH.jpg" onclick="showInfo('strands')">
                 </div>
+            </div>
 
+            <div class="info-container" id="college-info">
+                <h2>College Information</h2>
+                <div class="categories">
+                    <div class="category">
+                        <p><strong>Information & Communications Technology</strong></p>
+                        <ul>
+                            <li>BS in Information Technology (BSIT)</li>
+                            <li>BS in Information System (BSIS)</li>
+                            <li>BS in Computer Science (BSCS)</li>
+                            <li>2-yr. Information Technology (IT)</li>
+                            <li>2-yr. Associate in Computer Technology (ACT)</li>
+                        </ul>
+                    </div>
+            
+                    <div class="category">
+                        <p><strong>Business & Management</strong></p>
+                        <ul>
+                            <li>BS in Business Administration (BSBA)</li>
+                            <li>BS in Accountancy (BSA)</li>
+                            <li>BS in Accounting Information System (BSAIS)</li>
+                            <li>BS in Management Accounting (BSMA)</li>
+                            <li>BS in Retail Technology and Consumer Science (BSRTCS)</li>
+                            <li>2-yr. Associate in Retail Technology (ART)</li>
+                        </ul>
+                    </div>
+            
+                    <div class="category">
+                        <p><strong>Hospitality Management</strong></p>
+                        <ul>
+                            <li>BS in Hospitality Management (BSHM)</li>
+                            <li>BS in Culinary Management (BSCM)</li>
+                            <li>3-yr. Hotel and Restaurant Administration (HRA)</li>
+                            <li>2-yr. Hospitality and Restaurant Services (HRS)</li>
+                        </ul>
+                    </div>
+            
+                    <div class="category">
+                        <p><strong>Tourism Management</strong></p>
+                        <ul>
+                            <li>BS in Tourism Management (BSTM)</li>
+                            <li>2-yr. Tourism and Events Management (TEM)</li>
+                        </ul>
+                    </div>
+            
+                    <div class="category">
+                        <p><strong>Engineering</strong></p>
+                        <ul>
+                            <li>BS in Computer Engineering (BSCpE)</li>
+                        </ul>
+                    </div>
+            
+                    <div class="category">
+                        <p><strong>Arts & Sciences</strong></p>
+                        <ul>
+                            <li>Bachelor of Multimedia Arts (BMMA)</li>
+                            <li>BA in Communication (BACOMM)</li>
+                        </ul>
+                    </div>
+            
+                    <div class="category">
+                        <p><strong>Maritime</strong></p>
+                        <ul>
+                            <li>BS in Marine Transportation (BSMT)</li>
+                            <li>BS in Marine Engineering (BSMarE)</li>
+                            <li>BS in Naval Architecture and Marine Engineering (BSNAME)</li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <button onclick="hideInfo('college')">Close</button>
+            </div>
+            
+            <div class="info-container" id="strands-info">
+                Senior High Information
+                <button onclick="hideInfo('strands')">CLOSE</button>
             </div>
         </div>
     </div>
