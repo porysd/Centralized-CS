@@ -202,7 +202,7 @@ header {
 }
 
 .schedule-container {
-    width: 300px;
+    width: 200px;
     height: 450px;
     position: absolute;
     top:50px;
@@ -218,13 +218,35 @@ header {
     text-align: center;
 }
 
-.blueprints img{
+.blueprints {
+    overflow: hidden;
+}
+
+.blueprints,
+.blueprints * {
+    box-sizing: border-box;
+}
+
+.blueprints {
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    border-radius: 24px;
+    border: 1px solid black;
+}
+
+.blueprints img {
     width: 650px;
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 
 
