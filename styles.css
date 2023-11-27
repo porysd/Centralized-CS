@@ -15,7 +15,7 @@ div.sectionTitle h1{
     padding:  20px;
     margin: 0;
     flex:1;
-    text-indent: 90px;
+    text-indent: 5%;
     color: #fff;
     font-size: 22px;
     font-weight: 400;
@@ -41,7 +41,7 @@ header {
 
 /* Basic styling for the sidebar */
 .sidebar {
-    width: 100px; 
+    width: 6.5%; 
     background-color: #37474F;
     position:fixed;
     margin: 0;
@@ -55,10 +55,11 @@ header {
 
 /* Style for the school logo */
 .school-logo img {
-    width: 80px; 
+    width: 80%; 
     height: auto;
-    margin-top: 15px;
-    margin-bottom: 50px;
+    margin-top: 15%;
+    margin-left: 8%;
+    margin-bottom: 50%;
 }
 
 .tab-logo {
@@ -69,9 +70,9 @@ header {
 
 /* Style for tab logos */
 .tab-logo img {
-    width: 40px; 
+    width: 40%; 
     height: auto; 
-    margin: 15px;
+    margin: 15%;
 }
 
 .tab-logo span {
@@ -81,16 +82,16 @@ header {
 
 /* Styling for the content area */
 .content {
-    margin-left: 170px; 
+    margin-left: 10%; 
     padding: 0;
 }
 
 /* Style for the scrolling box */
 .scrolling-box {
-    width: 1230px; 
-    height: 450px;
-    white-space: nowrap;
-    border-radius: 30px;
+    width: 90%; 
+    height: auto;
+    white-space: normal;
+    border-radius: 10px;
     margin-top: 50px;
     padding: 40px;
     background-color: #37474F;
@@ -129,8 +130,8 @@ header {
 .swiper-pagination {
     display: flex;
     justify-content: center;
-    margin: 30px;
-    padding: 10px;
+    margin: 3px;
+    padding: 20px;
 
     
 }
@@ -272,11 +273,6 @@ header {
     left: 50%; 
     transform: translate(-50%, -50%); 
 }
-
-
-
-
-
 
 
 /*COURSES */
@@ -450,4 +446,25 @@ header {
 
 
 
+@media screen and (max-width: 600px) {
+    .content {
+        margin-left: 5%;
+    }
 
+    .scrolling-box {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .content {
+        margin-left: 8%;
+    }
+
+    .scrolling-box {
+        width: 80%;
+    }
+
+    /* Add more styles as needed */
+}
