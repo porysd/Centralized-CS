@@ -1,3 +1,6 @@
+
+//LOGOS//
+
 const tabLogos = document.querySelectorAll('.tab-logo');
 const tabContents = document.querySelectorAll('.tab-content');
 
@@ -12,7 +15,7 @@ tabLogos.forEach((tabLogo, index) => {
     });
 });
 
-
+//HOMEPAGE//
 var mySwiper = new Swiper('.sub-tabs', {
     slidesPerView: 'auto',
     loop: true,
@@ -32,8 +35,51 @@ tabButtons.forEach(function (button, index) {
 });
 
 
+//MAPS//
+
+function showFloor(building) {
+  var floorImage = document.getElementById("floor-image");
+  var noBuildingMessage = document.getElementById("no-building-message");
+  var buildingButtons = document.querySelectorAll('.building-button');
+
+  buildingButtons.forEach(function(button) {
+      button.classList.remove('active');
+  });
+
+  var activeButton = document.querySelector('.building-button[data-building="' + building + '"]');
+  activeButton.classList.add('active');
+  switch (building) {
+      case 'A':
+          floorImage.src = "Blueprints/blueprint-a.jpg";
+          noBuildingMessage.style.display = "none";
+          floorImage.style.display = "block";
+          break;
+      case 'B':
+          floorImage.src = "Blueprints/blueprint-b.jpg";
+          noBuildingMessage.style.display = "none";
+          floorImage.style.display = "block";
+          break;
+      case 'C':
+          floorImage.src = "Blueprints/blueprint-c.jpg";
+          noBuildingMessage.style.display = "none";
+          floorImage.style.display = "block";
+          break;
+      case 'D':
+          floorImage.src = "Blueprints/blueprint-d.jpg";
+          noBuildingMessage.style.display = "none";
+          floorImage.style.display = "block";
+          break;
+      default:
+          floorImage.src = "";
+          noBuildingMessage.style.display = "block";
+          floorImage.style.display = "none";
+  }
+}
 
 
+
+
+//CONTACTS//
 
 function showFeedbackForm() {
     document.getElementById('initialButtons').style.display = 'none';

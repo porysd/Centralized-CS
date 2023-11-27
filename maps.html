@@ -53,16 +53,19 @@
                     <button id="search-button">Search</button>
                 </div>
                 <div class="building-buttons">
-                    <button class="building-button">Building A</button>
-                    <button class="building-button">Building B</button>
-                    <button class="building-button">Building C</button>
-                    <button class="building-button">Building D</button>
+                    <button class="building-button" onclick="showFloor('A')" data-building="A">Building A</button>
+                    <button class="building-button" onclick="showFloor('B')" data-building="B">Building B</button>
+                    <button class="building-button" onclick="showFloor('C')" data-building="C">Building C</button>
+                    <button class="building-button" onclick="showFloor('D')" data-building="D">Building D</button>
                 </div>
                 <div class="schedule-container">
                     <p class="schedule-placeholder">Classromm Schedule</p>
                 </div>
                 <div class="blueprints">
-                    <img src="Photos/372386962_122292940942566_157065717723287786_n.jpg">
+                    <div class="floors-print">
+                        <p id="no-building-message">NO BUILDING SELECTED</p>
+                        <img id="floor-image" src="" style="display: none;">
+                    </div>
                 </div>
                 <div class="classroom-schedule" id="classroom-schedule">
                     <!-- CONTENT -->
