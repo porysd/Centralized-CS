@@ -298,7 +298,7 @@ header {
     margin: 0 10px;
 }
 
-.course-box img {
+.course-box .college img, .course-box .strands img{
     max-width: 600px;
     height: auto;
     display: block;
@@ -308,7 +308,10 @@ header {
     cursor: pointer;
 }
 
-.course-box img:hover {
+/* .course.box .be-sti{} */
+
+.course-box .college img:hover, 
+.course-box .strands img:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
