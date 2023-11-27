@@ -114,42 +114,43 @@
 
 /* MAP */
 
-.search-bar {
-    width: 150px; 
-    height: auto;
-    padding: 10px 20px;
-    font-size: 16px; 
-    border: 1px solid #ccc;
-    border-radius: 10px;
+.building-box{
+    position: absolute;
+    width: 75rem;
+    height: 40rem;
+    right: 2%;
+    bottom: 4%;
+    background-color: #2C384A;
+    border-radius: 1.5rem;
+    box-shadow: 9px 11px 6px 0px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
 }
-
-.building-buttons {
+.building-menu{
+    height: 100%;
     display: flex;
-    flex-direction: column; 
-    padding: 20px;
+    align-items: center;
+    margin-left: 2%;
+    
 }
-
-.building-button {
-    width: 150px;
-    height: auto;
-    padding: 10px 20px; 
-    margin: 20px 0; 
-    text-align: center;
-    background: #555;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 10px;
+.search-bar{
+    width: 9rem;
+    height: 1.5rem;
+    border-radius: 1.75rem;
+    border: 2px solid #C7C7C7;
+    background: #FFF;
 }
-
-.building-border {
-    width: 1160px; 
-    height: 500px; 
-    border: 1px solid black;
-    border-radius: 30px;
-    white-space: nowrap;
-    margin-top: 50px;
-    padding: 45px;
-    background-color: darkgray;
+.search-button{
+    height: 1.75rem;
+    border-radius: 1.75rem;
+    border: 2px solid #C7C7C7;
+}
+.building-btn{
+    border-radius: 0.6875rem;
+    background: #FFF;
+    margin: 10% 0;
+    display: block;
+    width: 12.5rem;
+    height: 3.5rem;
 }
 
 
