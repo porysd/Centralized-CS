@@ -116,6 +116,15 @@ header {
     padding-left: 200px;
 }
 
+#embedded{
+    max-width: 90%;
+    height: auto;
+    flex-shrink: 0;
+    padding-left: 100px;
+    object-fit: none;
+    object-fit: scale-down;
+}
+
 
 /* Style for the sub-tab content container */
 .sub-tabs {
