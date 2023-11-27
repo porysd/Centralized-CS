@@ -393,42 +393,61 @@ header {
     white-space: nowrap;
     margin-top: 50px;
     padding: 40px;
-    background-color: whitesmoke;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 /*CONTACTS*/
+
 .contact-tab{
+    width: 1210px; 
+    height: 460px; 
+    border: 10px solid rgb(1, 87, 155);
+    border-radius: 10px;
+    white-space: nowrap;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 75vh;
-    margin: 0;
     font-family: Arial, sans-serif;
 }
+
 #initialButtons, #feedbackForm, #reportForm, #confirmationMessage {
-    text-align: center;
-    background-color: #3498db;
+    width: 1190px; 
+    height: auto; 
     padding: 50px;
     border-radius: 10px;
     margin-bottom: 20px;
-  }
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
 
   #feedbackForm, #reportForm {
     display: none;
+    width: 1140px;
+    height: auto;
+    border: 1px solid black;
   }
 
   #confirmationMessage {
     display: none;
-    color: #fff;
+    color: #37474F;
   }
 
   label {
     display: block;
     margin-bottom: 8px;
-    color: #fff;
+    
+    color: black;
   }
 
   input, textarea, select {
@@ -439,8 +458,8 @@ header {
   }
 
   button {
+    color:white;
     background-color: #2980b9;
-    color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -448,6 +467,7 @@ header {
   }
 
   button:hover {
+    color: white;
     background-color: #1a5276;
   }
 
